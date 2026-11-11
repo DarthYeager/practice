@@ -1,0 +1,5 @@
+integer_value = int(input("Enter a number: "))
+float_value = float(input("Enter float number: "))
+string_value = str(input("Enter string value: "))
+boolean_value = bool(input("Enter a boolean value: "))
+print(f"Integer value : {integer_value}, {type(integer_value)}\nFloat Value: {float_value}, {type(float_value)}\nString Value: {string_value}, {type(string_value)}\nBoolean Value: {boolean_value}, {type(boolean_value)}")
